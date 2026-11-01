@@ -19,7 +19,7 @@ Operators running factory PLCs, secure data center server rooms, SCADA networks,
 1. **Automated Incident Watcher:** Monitors an incoming directory using `watchdog`. When a `.log`, `.txt`, or `.dump` file lands, it waits 1 second for write completion before triaging.
 2. **Deterministic Root-Cause Analysis:** Uses a version-controlled operational prompt contract (`diagnostics.SKILL.md`) at `temperature: 0` to produce structured JSON root-cause diagnoses.
 3. **Verbatim Evidence Verification (Zero Hallucination):** Every citation is checked character-for-character against the original log. If the AI hallucinates, it is immediately flagged as unverified.
-4. **Safety Guardrails:** All suggested remediation commands pass through an active blocklist (`rm`, `mkfs`, `dd`, `shutdown`, `reboot`, `chmod -R`, etc.) and are labelled `SUGGESTED, NOT RUN`. Commands are **never** executed automatically.
+4. **Safety Guardrails:** All suggested remediation commands pass through an active blocklist (`rm`, `mkfs`, `dd`, `shutdown`, `reboot`, `chmod -R`, etc.) and are labelled `SUGGESTED, NOT RUN`. Commands are **never** executed automatically..
 
 ---
 
